@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TABLE RESERVATION</title>
+        <link rel="shortcut icon" type="image/jpeg" href="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/5f/70/7a/5f707a5d-72f6-5287-5391-714a5a3ece28/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/434x0w.webp">
+</head>
+    <style>
+        .img{
+            background-image: url('https://d23ynomj6u3eig.cloudfront.net/sites/default/files/2021-07/HeroPromotionalImage.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 810px;
+            position: relative;
+            background-position-x: center;
+        }
+
+        .bx{
+            background-color: aliceblue;
+            height: 770px;
+            width: 600px;
+            margin-left: 890px;
+            margin-top: 33px;
+            border-radius: 30px;
+            box-shadow: 0px 10px 20px 0px aqua;
+        }
+
+            .txt{
+                position: absolute;
+                left: 80px;
+                top: 160px;
+                font-size: 75px;
+                font-style: italic;
+                color: aliceblue;
+            }
+
+            #bt:hover:active{
+                background-color: orangered;
+            }
+
+    </style>
+
+
+            <!-- For the .img class:
+
+            The background-image property sets the background image of the element to the specified URL.
+            The background-repeat property specifies that the background image should not repeat.
+            The background-size property sets the size of the background image to cover the element.
+            The height property sets the height of the element to 810 pixels.
+            The position property sets the position of the element to relative.
+            The background-position-x property sets the horizontal position of the background image to the center.
+            For the .bx class:
+
+            The background-color property sets the background color of the element to aliceblue.
+            The height property sets the height of the element to 770 pixels.
+            The width property sets the width of the element to 600 pixels.
+            The margin-left property sets the left margin of the element to 890 pixels.
+            The margin-top property sets the top margin of the element to 33 pixels.
+            The border-radius property sets the border radius of the element to 30 pixels, giving it rounded corners.
+            The box-shadow property adds a box shadow to the element. -->
+
+<body class="img">
+
+    <!-- This div container represent form table -->
+
+    <div class="bx">
+        <font style="font-size: 30px;margin-top: 200px;"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong> Let us serve you better</strong></font><br><br>
+        <font style="font-size: 25px;color: grey;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Don’t wait in a line to enjoy your meal.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reserve a table in advance with us.</font><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <font style="font-size: 25px;">Location</font><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select style="height: 40px;width: 500px;font-size: 20px;cursor: pointer;border-radius: 10px;text-decoration: none;">
+            <option value="select"></option>
+            <option value="18">Vijayawada</option>
+            <option value="19">Hyderabad</option>
+            <option value="20">Benguluru</option>
+            <option value="20">Mumbai</option>
+            <option value="20">Delhi</option>
+        </select><br><br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <font style="font-size: 25px;">Date</font><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Today" id="bt" style="height:40px;width: 100px;border-radius: 20px;cursor: pointer;font-size: 15px;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Tomorrow" id="bt" style="height:40px;width: 100px;border-radius: 20px;cursor: pointer;font-size: 15px;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" placeholder="pick a date" value="pick a date" style="height: 40px;width: 100px;border-radius: 10px;cursor: pointer;"><br><br><br>
+    
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <font style="font-size: 25px;">Session</font><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Lunch" id="bt" style="height:40px;width: 100px;border-radius: 20px;cursor: pointer;font-size: 15px;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Dinner" id="bt" style="height:40px;width: 100px;border-radius: 20px;cursor: pointer;font-size: 15px;"><br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <font style="font-size: 25px;">Name</font><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" value=""  style="height:35px;width: 400px;border-radius: 10px;cursor: pointer;font-size: 20px;"><br><br>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <font style="font-size: 25px;">Phone Number</font><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" value="" maxlength="10" style="height:35px;width: 400px;border-radius: 10px;cursor: pointer;font-size: 20px;"><br><br><br>
+
+        <input type="button" value="Reserve Table" style="height: 60px;width: 150px;margin-left: 225px;cursor: pointer;font-size: 20px;background-color:#dc7241;border-radius: 100%;box-shadow: 0px 10px 20px 0px black;">
+        
+    
+    
+    </div>
+
+    <div class="child">
+        <div class="txt">
+            <p >LET US SERVE <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YOU BETTER</strong></p>
+        </div>
+
+    
+</body>
+</html>

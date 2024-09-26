@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>ONLINE ORDER</title>
+        <link rel="shortcut icon" type="image/jpeg" href="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/5f/70/7a/5f707a5d-72f6-5287-5391-714a5a3ece28/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/434x0w.webp">
+    <style>
+
+.container{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+        }
+
+        .item {
+  font-size: 30px;
+  line-height: 1;
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border: 3px solid white;
+  color: black;
+  margin: px;
+  text-align: left;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.div1{
+  float: left;
+  border: 200px;
+  border-color: black;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.product {
+      background-color:beige;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+      width:240px;
+      padding-bottom: 30px;
+      padding-right: 120px;
+      padding-left: 60px;
+      border-color: aqua;
+
+    }
+
+    .button {
+      background-color: #333;
+      color: #fff;
+      padding: 15px 10px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-style: 10px;
+    }
+    
+    
+    .button:hover {
+      background-color:#555;
+    cursor: pointer;
+    }
+
+    .product:hover{
+      border: 2px;
+    border-color: aqua;
+      
+    }
+
+    .nav{
+            display: flex;
+            background:brown;
+            justify-content: space-between;
+            border-radius: 15px;
+            height: 80px;
+            align-items: center;
+            width: 100%;
+            background: linear-gradient(60deg,#e60f16,rgb(0, 255, 106),rgb(137, 10, 240),rgb(227, 91, 7));
+            background-size: 400% 400%;
+            animation: tex 7s ease   infinite;
+            
+            z-index: 10;
+            margin-right: 400px;
+            }
+
+            .navbar{
+                position: relative;
+                left: 5px;
+                color:white;
+                float: left;
+
+            }
+
+            li {
+                display: inline;
+                float:left;
+                font-size: 30px;
+                font-family:Ananda;
+                
+                
+                
+            }
+            li a{
+                color:aqua;
+                display: block;
+                padding: 8px;
+                text-decoration:none;
+            }
+   
+
+
+    </style>
+</head>
+
+          <!-- For the .div1 class:
+
+          The float property positions the element to the left within its container.
+          The border property sets the width of the border around the element to 200 pixels.
+          The border-color property sets the color of the border to black.
+          For the .row class:
+
+          The ::after pseudo-element is used to insert a clearfix after the rows to clear the floats.
+          For the .product class:
+
+          The background-color property sets the background color of elements with the .product class to beige.
+          The border-radius property sets the border radius of elements with the .product class to 4 pixels.
+          The box-shadow property adds a shadow to the element.
+          The padding property sets the padding inside the element.
+          The margin property sets the margin around the element.
+          The text-align property sets the alignment of the text within the element to center.
+          The width property sets the width of the element to 240 pixels.
+          The padding-bottom, padding-right, and padding-left properties add additional padding to specific sides of the element.
+          The border-color property sets the color of the border around the element to aqua.
+          The .product:hover selector applies styles to elements with the .product class when hovered over:
+          The border property adds a 2-pixel border around the element.
+          The border-color property sets the color of the border to aqua. -->
+
+<body style="margin-left: 150px;margin-right: 150px;">
+
+  <div class="nav">
+    <div class="navbar">
+    <a href="hotelmanagement.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp6ILjS-TD50ACjzdIL8aM-HuoGLvkqyYWwNWQZKWHha4Onv34kqrFYEujvAaEVqDBPIaeboCjahc&usqp=CAU&ec=48665698" height="70px" width="120px" style="float: left; cursor: pointer;"></a>
+    </div>
+    
+<!-- The list of elements in thr navbar -->
+
+    <div style="float: right;">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="support.html">Support</a></li>
+    <li><a href="aboutus.html">About us</a></li>
+    </div>
+
+
+</div>
+    <p align="center" style="font-size: 60px;font-style:italic ;">Online Orders</p>
+    <a href="change.html" target="_self"><button style="width: 450px;height: 50px;font-size: 20px;font-style: italic;float: left;text-align: left;cursor: pointer;">&nbsp;&nbsp;Delivery Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black" text-decoration="none">Change</font></button></a><br><br><br><br><br>
+    
+    <div class="container">
+        <div class="item item-1" style="flex-grow: 1;"><a href="#lun" style="text-decoration: none;color: black;">Lunch Menu</a></div>
+        <div class="item item-2" style="flex-grow: 1;"><a href="#str" style="text-decoration: none;color: black;">Staters</a></div>
+        <div class="item item-3" style="flex-grow: 1;"><a href="#sas" style="text-decoration: none;color: black;">Soups and Salards</a></div>
+  </div><hr>
+
+
+<!-- List of food items in lunch -->
+
+  <p id="lun" align="left" style="font-size: 50px;">Lunch Menu</p>
+  <p style="font-size: 20px;font-style: italic;">Serves daily between 12-5pm</p>
+  <table>
+    <tr>
+      
+      <td>
+       <div class="product">        
+        <img  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/iorftwkwjjd0mawvmgh1" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+        <br>
+        <p style="font-size: 25px;">Chicken Biriyani RS250</p><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+    </div></td>
+    
+    <td>
+        <div class="product">        
+        <img  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/jv7m6a10uvfszlasl4sl" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+                <br>
+                <p style="font-size: 25px;">Mutton Biriyani<br>RS300</p><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+            </div></td>
+            
+            <td>          
+              <div class="product">        
+                    <img  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/uvconpb7yjuqkg3yxgzj" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+                            <br>
+                            <p style="font-size: 25px;">Egg Biriyani<br>RS180</p><br><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+                        </div></td>
+                        </tr>
+                        
+                        <tr>
+                          <td>
+                            <div class="product">        
+                              <img  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/kpjz4gqaracibg2rbsly" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+                                      <br>
+                                      <p style="font-size: 25px;">Veg Biriyani<br>RS150</p><br><br>
+                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+                                  </div></td>
+
+                                    <td>
+                                      <div class="product">        
+                                        <img  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/zgjucykbxe6avwwgyqrb" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+                                                <br>
+                                                <p style="font-size: 25px;">Paneer Biriyani<br>RS160</p><br><br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+                                            </div></td>
+
+                                          <td>
+                                            <div class="product">        
+                                              <img  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/hlt9bjy0scdadzrawftz" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+                                                      <br>
+                                                      <p style="font-size: 25px;">Veg palaov<br>RS120</p><br><br>
+                                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+                                                  </div></td></tr>
+
+</table>
+
+<!-- List of food items in staters -->
+
+<p id="str" align="left" style="font-size: 50px;">Staters</p>
+
+<table>
+  <tr>
+    
+    <td>
+     <div class="product">        
+      <img  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/yrihvctlrekr6njztlus" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+      <br>
+      <p style="font-size: 25px;">Chicken 65<br>RS130</p><br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+  </div></td>
+  
+  <td>
+      <div class="product">        
+      <img  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/dgqdg4yolwmofzsqycbi" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+              <br>
+              <p style="font-size: 25px;">Chicken Magestc<br>RS190</p><br><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+          </div></td>
+          
+          <td>          
+            <div class="product">        
+                  <img  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/lggtltji5k5mg7qhkwcr" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+                          <br>
+                          <p style="font-size: 25px;">Chilli Chicken<br>RS140</p><br><br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+                      </div></td>
+                      </tr>
+                      
+                      <tr>
+                        <td>
+                          <div class="product">        
+                            <img  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/u0aphhsnxcbvbt3ihpex" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+                                    <br>
+                                    <p style="font-size: 25px;">Irani Kabab<br>RS300</p><br><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+                                </div></td>
+
+                                  <td>
+                                    <div class="product">        
+                                      <img  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/adx3wm4zrwyipcgvtrah" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+                                              <br>
+                                              <p style="font-size: 25px;">Saute prawns<br>RS250</p><br><br>
+                                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+                                          </div></td>
+
+                                        <td>
+                                          <div class="product">        
+                                            <img  src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/kb4labrtx9q9myt2xrbr" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+                                                    <br>
+                                                    <p style="font-size: 25px;">Chicken Lollipop<br>RS140</p><br><br>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+                                                </div></td></tr>
+
+</table>
+
+<!-- List of food items in Soups and Salards -->
+
+<p id="sas" align="left" style="font-size: 50px;">Soups and Salards</p>
+
+<table>
+  <tr>
+    
+    <td>
+     <div class="product">        
+      <img  src="https://images.getbento.com/accounts/3c10e657dc5f2aa01b55394e8376688a/media/images/658200274-From-the-Hip-Photo.jpg?&fit=crop&auto=compress,format&h=520&crop=focalpoint&fp-x=0.5&fp-y=0.5" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+      <br>
+      <p style="font-size: 25px;">Cobb Salard<br>RS320</p><br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+  </div></td>
+  
+  <td>
+      <div class="product">        
+      <img  src="https://images.getbento.com/accounts/3c10e657dc5f2aa01b55394e8376688a/media/images/563250282-From-the-Hip-Photo.jpg?&fit=crop&auto=compress,format&h=520&crop=focalpoint&fp-x=0.5&fp-y=0.5" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+              <br>
+              <p style="font-size: 25px;">&nbsp;Shaved brussels Salard<br>RS210</p><br><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+          </div></td>
+          
+          <td>          
+            <div class="product">        
+                  <img  src="https://cdn.loveandlemons.com/wp-content/uploads/2020/05/chopped-salad.jpg" alt="I'm a product" fetchpriority="high" style="width: 310px; height: 240px; object-fit: cover; object-position: 50% 50%;" >
+                          <br>
+                          <p style="font-size: 25px;">Green Salard<br>RS280</p><br><br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="buynow.html">buy now</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button">add to cart</a>
+                      </div></td>
+                      </tr>
+                      
+
+</table>
+
+
+
+</body>
+</html>
